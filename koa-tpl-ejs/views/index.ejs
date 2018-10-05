@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+</head>
+<body>
+
+    <% include ./header.ejs %>
+
+    <h3><%= title %></h3>
+    <p>EJS Welcome to <%= title %></p>
+
+    <ul>
+      <% for(var i=0; i< list.length; i++) {%>
+        <li><%= list[i] %></li>
+      <% } %>
+    </ul>
+
+
+    <div>
+      <p><%= html %></p>
+      <p></p>
+      <p><%- html %></p>
+    </div>
+
+
+    <% if(num >12) {%>
+      <p>大于12</p>
+    <%} else {%>
+      <p>小于12</p>
+    <%}%>
+
+
+    <% include ./footer.ejs %>
+</body>
+</html>
