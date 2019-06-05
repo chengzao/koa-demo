@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "busboy": "^0.2.14",
+    "busboy": "^0.3.1",
     "ejs": "^2.6.1",
     "graphql": "^14.0.2",
     "koa": "^2.5.3",
